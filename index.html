@@ -374,7 +374,7 @@ body
                 <div id="album-art">
                     <img src="https://github.com/joantheexplorer/music-player/blob/main/love.jpg" class="active" id="_1">
                     <img src="https://github.com/joantheexplorer/music-player/blob/main/seasons.jpg" id="_2">
-                    <div id="buffer-box">Buffering ...</div>
+                <div id="buffer-box">Buffering ...</div>
                 </div>
                 <div id="player-controls">
                     <div class="control">
@@ -401,7 +401,7 @@ body
     $(function()
 {
     var playerTrack = $("#player-track"), bgArtwork = $('#bg-artwork'), bgArtworkUrl, albumName = $('#album-name'), trackName = $('#track-name'), albumArt = $('#album-art'), sArea = $('#s-area'), seekBar = $('#seek-bar'), trackTime = $('#track-time'), insTime = $('#ins-time'), sHover = $('#s-hover'), playPauseButton = $("#play-pause-button"),  i = playPauseButton.find('i'), tProgress = $('#current-time'), tTime = $('#track-length'), seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0, buffInterval = null, tFlag = false, 
-        albums = ['⋆Supernatural⋆','⋆How Sweet⋆','⋆Super Shy⋆','⋆Ditto⋆','⋆HypeBoy⋆'], 
+        albums = ['love.','seasons'], 
         trackNames = ['wave to earth','wave to earth'], 
         albumArtworks = ['_1','_2'], 
         trackUrl = ['https://github.com/joantheexplorer/music-player/blob/main/wave%20to%20earth%20-%20love..ogg',
